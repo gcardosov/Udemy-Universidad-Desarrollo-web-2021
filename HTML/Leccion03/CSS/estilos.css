@@ -1,26 +1,14 @@
 h1{
-    color: #f07167;
+    color: #560bad;
 }
 
-/*Estado original del link*/
-a:link{
-    color: #fb8500;
+a:link, a:visited{
+    background-color: #b5179e;
+    color: white;
+    padding: 15px 25px;
     text-decoration: none;
 }
 
-/*Link visitado*/
-a:visited{
-    color: #219ebc;
-    text-decoration: none;
-}
-
-/*Link cuando damos click sostenido */
-a:hover{
-    color: #8ecae6;
-    text-decoration: underline;
-}
-
-a:active{
-    color: #023047;
-    text-decoration: underline;
+a:hover, a:active{
+    background-color: #f72585;
 }
